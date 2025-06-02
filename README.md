@@ -1,6 +1,6 @@
 # 🥤 SHAKESpeare Milkshake Shop
+### A console-based milkshake shop management system with a creative Shakespearean twist, designed for managing milkshake inventory, sales, and customer interactions through a command-line interface.
 
-A console-based milkshake shop management system with a creative Shakespearean twist, designed for managing milkshake inventory, sales, and customer interactions through a command-line interface.
 
 ## 📖 Overview
 
