@@ -1,7 +1,6 @@
 # 🥤 SHAKESpeare Milkshake Shop
 ### A console-based milkshake shop management system with a creative Shakespearean twist, designed for managing milkshake inventory, sales, and customer interactions through a command-line interface.
 
-![image alt](https://github.com/mtxmln-devs/SHAKESpeare_Milkshake-Shop-Management-System-Console-Based-/blob/a6fd4e7b0e5b4bde874563c5b7415a47650f1461/Screenshot%202025-06-02%20222347.png)
 
 ## 📖 Overview
 SHAKESpeare Milkshake Shop is a text-based application that combines the elegance of Shakespeare with the deliciousness of milkshakes. This console application provides a complete management system for a virtual milkshake shop, featuring inventory management, sales processing, and customer service functionalities. The application uses a retro ASCII art interface with a menu-driven system for easy navigation.
