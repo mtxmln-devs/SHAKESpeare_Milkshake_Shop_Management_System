@@ -12,12 +12,12 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 - **Edit Shakes**: Modify existing milkshake details, flavors, and specifications
 - **Search Shakes**: Find specific milkshakes by name, flavor, or ingredients
 - **Remove Shakes**: Delete milkshakes from the inventory system
+- **Purchase Shakes**: Buy some available milkshakes from the inventory
 - **Display Shakes**: View complete catalog of available milkshakes
 
 ### 💰 Business Operations
 - **Purchase System**: Process customer orders and handle transactions
-- **Inventory Tracking**: Monitor stock levels and ingredient availability
-- **Sales Analytics**: Track popular items and revenue generation
+- **Inventory Tracking**: Monitor stock levels and milkshake availability
 - **Price Management**: Set and adjust milkshake pricing
 
 ### 🎨 User Interface Features
@@ -33,10 +33,10 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 - **Backup System**: Maintain data backups and recovery options
 - **Export Functionality**: Generate reports and data exports
 
-## 🛠️ Tech Stack
 
+## 🛠️ Tech Stack
 ### Programming Language
-- **C/C++**: Core application development
+- **C++**: Core application development
 - **Standard Libraries**: iostream, fstream, string, vector for basic operations
 - **File I/O**: Data persistence and file management
 
@@ -57,7 +57,6 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 - **Binary Files**: Efficient data storage for larger datasets
 
 ## 🎯 Project Goals
-
 ### 🎪 Primary Objectives
 1. **Educational Tool**: Demonstrate console application development principles
 2. **Business Simulation**: Provide realistic shop management experience
@@ -78,7 +77,6 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 - Online ordering system connectivity
 
 ## 🚀 Setup Guide
-
 ### 📋 Prerequisites
 - C/C++ compiler (GCC, MinGW, Visual Studio)
 - Command-line interface (Terminal, Command Prompt)
@@ -86,7 +84,6 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 - Basic knowledge of console applications
 
 ### 💻 Installation Steps
-
 #### Method 1: Compile from Source (C++)
 1. **Clone the Repository**
    ```bash
@@ -97,19 +94,19 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 2. **Compile the Application**
    ```bash
    # Using GCC
-   g++ -o shakespeare_shop main.cpp milkshake.cpp shop.cpp
+   g++ -o SHAKESpeare.cpp
    
    # Using Visual Studio (Windows)
-   cl main.cpp milkshake.cpp shop.cpp
+      cl SHAKESpeare.cpp
    ```
 
-3. **Run the Application**
+4. **Run the Application**
    ```bash
    # Linux/Mac
-   ./shakespeare_shop
+   ./SHAKESpeare
    
    # Windows
-   shakespeare_shop.exe
+   SHAKESpeare.cpp
    ```
 
 #### Method 2: Using Makefile
@@ -150,7 +147,7 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 2. **Project Structure Setup**
    ```bash
    mkdir src include data
-   touch src/main.cpp include/milkshake.h
+   touch src/SHAKESpeare.cpp include/milkshake.h
    ```
 
 3. **Testing Setup**
@@ -160,41 +157,36 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
    ```
 
 ## 📁 Project Structure
-
-```
 shakespeare-milkshake-shop/
 ├── src/
-│   ├── main.cpp             # Main application entry point
-│   ├── milkshake.cpp        # Milkshake class implementation
-│   ├── shop.cpp             # Shop management functions
-│   ├── menu.cpp             # Menu display and navigation
-│   └── utils.cpp            # Utility functions
+│   ├── SHAKESpeare.cpp      # Main application entry point
+│   ├── SHAKESpeare.cpp      # Shop management functions
+│   ├── SHAKESpeare.cpp      # Menu display and navigation
+|
 ├── include/
-│   ├── milkshake.h          # Milkshake class header
-│   ├── shop.h               # Shop management header
-│   ├── menu.h               # Menu system header
-│   └── utils.h              # Utility functions header
+│   ├── SHAKESpeare.cpp      # Milkshake class header
+│   ├── SHAKESpeare.cpp      # Shop management header
+│   ├── SHAKESpeare.cpp      # Menu system 
+|
+├── functions/
+│   ├── [1]                  # Add Shakes
+│   ├── [2]                  # Edit Shakes
+│   ├── [3]                  # Search Shakes
+│   ├── [4]                  # Remove Shakes
+│   ├── [5]                  # Purchase Shakes 
+│   ├── [6]                  # Display Shakes
+|
 ├── data/
-│   ├── milkshakes.txt       # Milkshake inventory data
-│   ├── sales.txt            # Sales transaction records
-│   └── config.txt           # Application configuration
-├── docs/
-│   ├── user_manual.md       # User operation guide
-│   └── api_reference.md     # Code documentation
-├── tests/
-│   ├── test_milkshake.cpp   # Unit tests for milkshake class
-│   └── test_shop.cpp        # Unit tests for shop functions
-├── Makefile                 # Build configuration
+│   ├── temp.txt             # Milkshake inventory data
+|
 └── README.md                # Project documentation
-```
+
 
 ## 📖 Usage Instructions
-
 ### 🎮 Basic Operations
-
 1. **Starting the Application**
    ```bash
-   ./shakespeare_shop
+   ./SHAKESpeare
    ```
 
 2. **Main Menu Navigation**
@@ -204,7 +196,7 @@ shakespeare-milkshake-shop/
 
 3. **Adding New Milkshakes**
    - Select option [1] ADD SHAKES
-   - Enter milkshake name, flavor, price, and ingredients
+   - Enter milkshake id, name, price, stocks
    - Confirm details before saving
 
 4. **Managing Inventory**
@@ -213,11 +205,9 @@ shakespeare-milkshake-shop/
    - Use [6] DISPLAY SHAKES to view all items
 
 ### 🔍 Advanced Features
-
 1. **Search Functionality**
    - Select [3] SEARCH SHAKES
-   - Enter search criteria (name, flavor, price range)
-   - View filtered results
+   - Enter search criteria (id, name, price, stock)
 
 2. **Purchase Processing**
    - Select [5] PURCHASE SHAKES
@@ -257,14 +247,13 @@ shakespeare-milkshake-shop/
 ### 📊 Data Format
 ```
 // milkshakes.txt format
-ID,Name,Flavor,Price,Ingredients,Stock
-1,Hamlet's Delight,Chocolate,5.99,Chocolate Ice Cream;Milk;Whipped Cream,25
-2,Romeo's Romance,Strawberry,6.49,Strawberry Ice Cream;Milk;Fresh Strawberries,30
+ID,Name,Price,Stock
+1,Hamlet's Delight,5.99,25
+2,Romeo's Romance,6.49,30
 ```
 
 ## 🤝 Contributing
-
-We welcome contributions to enhance the SHAKESpeare Milkshake Shop experience!
+I welcome contributions to enhance the SHAKESpeare Milkshake Shop experience!
 
 ### 🔧 Development Guidelines
 - Follow consistent coding style and naming conventions
@@ -281,11 +270,9 @@ We welcome contributions to enhance the SHAKESpeare Milkshake Shop experience!
 - Bug fixes and error handling improvements
 
 ## 📄 License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
-
 If you encounter any issues or have questions:
 - 🐛 **Bug Reports**: Submit detailed issues with error messages
 - 💡 **Feature Requests**: Suggest new milkshake shop features
@@ -293,14 +280,12 @@ If you encounter any issues or have questions:
 - 📚 **Documentation**: Review user manual for detailed instructions
 
 ## 🔄 Updates
-
 Stay updated with the latest features and improvements:
 - ⭐ Star the repository for notifications
 - 👀 Watch for new releases and enhancements
 - 📱 Follow development progress and feature additions
 
 ## 🎓 Educational Use
-
 This project is perfect for:
 - Learning console application development
 - Understanding file I/O and data management
