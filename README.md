@@ -233,20 +233,9 @@ shakespeare-milkshake-shop/
 - Combines programming skills with creative presentation
 - Encourages unique project themes and branding
 
-## 🔧 Configuration
-
-### ⚙️ Application Settings
-```cpp
-// config.h
-#define MAX_MILKSHAKES 100
-#define MAX_NAME_LENGTH 50
-#define DATA_FILE "data/milkshakes.txt"
-#define SALES_FILE "data/sales.txt"
-```
-
 ### 📊 Data Format
 ```
-// milkshakes.txt format
+// temp.txt format
 ID,Name,Price,Stock
 1,Hamlet's Delight,5.99,25
 2,Romeo's Romance,6.49,30
