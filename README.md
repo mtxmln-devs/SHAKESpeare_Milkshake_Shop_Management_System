@@ -3,11 +3,9 @@
 
 
 ## 📖 Overview
-
 SHAKESpeare Milkshake Shop is a text-based application that combines the elegance of Shakespeare with the deliciousness of milkshakes. This console application provides a complete management system for a virtual milkshake shop, featuring inventory management, sales processing, and customer service functionalities. The application uses a retro ASCII art interface with a menu-driven system for easy navigation.
 
 ## ✨ Features
-
 ### 🍦 Core Milkshake Management
 - **Add Shakes**: Create new milkshake recipes with ingredients and pricing
 - **Edit Shakes**: Modify existing milkshake details, flavors, and specifications
