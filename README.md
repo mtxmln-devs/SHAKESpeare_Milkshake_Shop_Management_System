@@ -216,21 +216,26 @@ shakespeare-milkshake-shop/
    
 ### 🔍 Advanced Features
 1. **Search Functionality**
+   ```bash
    - Select [3] SEARCH SHAKES
    - Enter search criteria (id, name, price, stock)
-
+   ```
+   
 2. **Purchase Processing**
+   ```bash
    - Select [5] PURCHASE SHAKES
    - Choose items and quantities
    - Process payment and generate receipt
-
+   ```
+   
 3. **Data Management**
+   ```bash
    - Automatic saving of all changes
    - Data validation for all inputs
    - Error recovery and backup options
+   ```
 
 ## 🎭 Shakespearean Elements
-
 ### 🎪 Creative Features
 - **Themed Interface**: ASCII art with theatrical borders
 - **Clever Naming**: "SHAKESpeare" wordplay combining shakes and Shakespeare
@@ -267,9 +272,6 @@ I welcome contributions to enhance the SHAKESpeare Milkshake Shop experience!
 - Additional Shakespearean themed content
 - Performance optimizations
 - Bug fixes and error handling improvements
-
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 If you encounter any issues or have questions:
