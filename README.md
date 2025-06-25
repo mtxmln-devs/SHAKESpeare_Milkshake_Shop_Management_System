@@ -128,15 +128,18 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 
 #### Method 3: IDE Setup
 1. **Open Project in IDE**
+  ```bash
    - Import project into Code::Blocks, Dev-C++, or Visual Studio
    - Configure build settings for console application
+   ```
 
 2. **Build and Run**
+   ```bash
    - Use IDE's build and run commands
    - Configure output directory as needed
-
+   ```
+   
 ### 🔧 Development Setup
-
 1. **Development Environment**
    ```bash
    # Install development tools
@@ -157,6 +160,7 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
    ```
 
 ## 📁 Project Structure
+   ```bash
 shakespeare-milkshake-shop/
 ├── src/
 │   ├── SHAKESpeare.cpp      # Main application entry point
@@ -180,7 +184,7 @@ shakespeare-milkshake-shop/
 │   ├── temp.txt             # Milkshake inventory data
 |
 └── README.md                # Project documentation
-
+   ```
 
 ## 📖 Usage Instructions
 ### 🎮 Basic Operations
@@ -190,20 +194,26 @@ shakespeare-milkshake-shop/
    ```
 
 2. **Main Menu Navigation**
+  ```bash
    - Enter numbers 1-7 to select menu options
    - Follow on-screen prompts for each function
    - Enter 7 to exit the application
+   ```
 
 3. **Adding New Milkshakes**
+   ```bash
    - Select option [1] ADD SHAKES
    - Enter milkshake id, name, price, stocks
    - Confirm details before saving
-
+   ```
+   
 4. **Managing Inventory**
-   - Use [2] EDIT SHAKES to modify existing items
+   ```bash
+    - Use [2] EDIT SHAKES to modify existing items
    - Use [4] REMOVE SHAKES to delete items
    - Use [6] DISPLAY SHAKES to view all items
-
+   ```
+   
 ### 🔍 Advanced Features
 1. **Search Functionality**
    - Select [3] SEARCH SHAKES
