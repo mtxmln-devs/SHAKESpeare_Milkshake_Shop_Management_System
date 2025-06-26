@@ -1,10 +1,10 @@
-# 🥤 SHAKESpeare Milkshake Shop
+# 🥤 SHAKESpeare Milkshake Shop Management System
 ### A console-based milkshake shop management system with a creative Shakespearean twist, designed for managing milkshake inventory, sales, and customer interactions through a command-line interface.
 
 ![image alt](https://github.com/mtxmln-devs/SHAKESpeare_Milkshake-Shop-Management-System-Console-Based-/blob/fa801556da8aaf1cb435f8c2882b09ee78b57e73/Screenshot%202025-06-02%20223919.png)
 
 ## 📖 Overview
-SHAKESpeare Milkshake Shop is a text-based application that combines the elegance of Shakespeare with the deliciousness of milkshakes. This console application provides a complete management system for a virtual milkshake shop, featuring inventory management, sales processing, and customer service functionalities. The application uses a retro ASCII art interface with a menu-driven system for easy navigation.
+SHAKESpeare Milkshake Shop Management System is a text-based application that combines the elegance of Shakespeare with the deliciousness of milkshakes. This console application provides a complete management system for a virtual milkshake shop, featuring inventory management, sales processing, and customer service functionalities. The application uses a retro ASCII art interface with a menu-driven system for easy navigation.
 
 ## ✨ Features
 ### 🍦 Core Milkshake Management
@@ -87,8 +87,8 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 #### Method 1: Compile from Source (C++)
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/mtxmln-devs/shakespeare-milkshake-shop.git
-   cd shakespeare-milkshake-shop
+   git clone https://github.com/mtxmln-devs/shakespeare_milkshake_shop_management_system.git
+   cd shakespeare_milkshake_shop_management_system
    ```
 
 2. **Compile the Application**
@@ -112,8 +112,8 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 #### Method 2: Using Makefile
 1. **Clone and Navigate**
    ```bash
-   git clone https://github.com/mtxmln-devs/shakespeare-milkshake-shop.git
-   cd shakespeare-milkshake-shop
+   git clone https://github.com/mtxmln-devs/shakespeare_milkshake_shop_management_systemgit
+   cd shakespeare_milkshake_shop_management_system
    ```
 
 2. **Build with Make**
@@ -161,7 +161,7 @@ SHAKESpeare Milkshake Shop is a text-based application that combines the eleganc
 
 ## 📁 Project Structure
    ```bash
-shakespeare-milkshake-shop/
+shakespeare_milkshake_shop_management_system/
 ├── src/
 │   ├── SHAKESpeare.cpp      # Main application entry point
 │   ├── SHAKESpeare.cpp      # Shop management functions
