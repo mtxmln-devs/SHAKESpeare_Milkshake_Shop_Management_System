@@ -3,10 +3,12 @@
 
 ![image alt](https://github.com/mtxmln-devs/SHAKESpeare_Milkshake-Shop-Management-System-Console-Based-/blob/fa801556da8aaf1cb435f8c2882b09ee78b57e73/Screenshot%202025-06-02%20223919.png)
 
+---
   
 <div align="center"
    
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+
 
 </div>
 
