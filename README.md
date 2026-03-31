@@ -3,6 +3,16 @@
 
 ![image alt](https://github.com/mtxmln-devs/SHAKESpeare_Milkshake-Shop-Management-System-Console-Based-/blob/fa801556da8aaf1cb435f8c2882b09ee78b57e73/Screenshot%202025-06-02%20223919.png)
 
+  
+<div align="center"
+   
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+
+</div>
+
+--- 
+
+
 ## 📖 Overview
 SHAKESpeare Milkshake Shop Management System is a text-based application that combines the elegance of Shakespeare with the deliciousness of milkshakes. This console application provides a complete management system for a virtual milkshake shop, featuring inventory management, sales processing, and customer service functionalities. The application uses a retro ASCII art interface with a menu-driven system for easy navigation.
 
